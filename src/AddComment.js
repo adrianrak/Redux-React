@@ -1,10 +1,11 @@
 import React from 'react';
+import './AddComment.css';
 
 const AddComment = ({ text, addComment }) => {
     let input 
     return (
         <div>
-            <form onSubmit={ (e) => {
+            <form className="Add" onSubmit={ (e) => {
                 e.preventDefault()
                 if (!input.value.trim()) {
                     return
@@ -21,7 +22,7 @@ const AddComment = ({ text, addComment }) => {
                     }}
                 />
                 <button type="submit">
-                    Add comment
+                    <i className="fa fa-plus-square"></i>
                 </button>
             </form>
         </div>
