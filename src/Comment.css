@@ -1,0 +1,15 @@
+.CommentLi {
+    list-style: none;
+    color: #959B3D;
+    padding: 15px;
+}
+.text {
+    padding: 15px;
+    border: 2px solid #4F5A65;
+}
+button {
+    cursor: pointer;
+}
+span {
+    padding-right: 10px;
+}
